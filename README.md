@@ -5,7 +5,14 @@
 - You’re now in a position to confidently calculate how much you typically spend each month on various expenses, from mortgage, rent and car payments to utility bills, insurance, prescriptions,  groceries, dining out and student and other loans.
 - Using a budget calculator can help you quickly add up your income and expenses. 
 
+##Input
+- The first input contains **float** which denotes **Salary**
+- The next input contains **string** which denotes **expenditure name**
+- The next input contains **float** which denotes **expenditure amount** incurred by **expenditure name**
+- If there are no expenses to **user** enter press **q** key 
 
+##Output
+- 
 ##Constraints
 0<= salary <= 1000000
 
