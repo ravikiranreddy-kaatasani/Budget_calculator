@@ -31,6 +31,7 @@ while(True):
             expend_inventory[expenditure_name]=temp+expenditure_amount
     else:
         print(" Insufficientfunds")
+        break
 total_expense = sum(expend_inventory.values()) #expense
 
                 
