@@ -36,9 +36,9 @@ total_expense = sum(expend_inventory.values()) #expense
                 
 print(expend_inventory)                
 print("salary".ljust(35)," : ",salary) 
-print("-----------------------------------")
+print("-"*37,'-'*(len(str(salary))+3))
 for name, amount in expend_inventory.items():  
     print(name.ljust(35)," : ",str(amount).rjust(len(str(salary))))
-print("------------------------------------")    
-print("total expend_inventory is".ljust(35)," : ",total_expense)    
-print("balance".ljust(35)," : ",balance )    
+print("-"*37,'-'*(len(str(salary))+3))     
+print("total expend_inventory is".ljust(35)," : ",str(total_expense).rjust(len(str(salary))))    
+print("balance".ljust(35)," : ",str(balance).rjust(len(str(salary))))
