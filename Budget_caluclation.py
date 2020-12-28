@@ -31,7 +31,7 @@ while(True):
             expend_inventory[expenditure_name]=temp+expenditure_amount
     else:
         print(" Insufficientfunds")
-total_expense = salary-balance #expense
+total_expense = sum(expend_inventory.values()) #expense
 
                 
 print(expend_inventory)                
