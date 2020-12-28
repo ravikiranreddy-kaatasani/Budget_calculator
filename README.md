@@ -3,7 +3,13 @@
 ## About 
 
 
-##
+## Sample Input
+
+## Sample Output
+
+##Explanation
+
+
 
 
 
