@@ -38,7 +38,7 @@ print(expend_inventory)
 print("salary                               : ",salary) 
 print("---------------------------------")
 for key, value in expend_inventory.items():  
-    print("{0}                              : {1} ".format(key,value))
+    print(key.ljust(25)," : ",value)
 print("------------------------------------")    
 print("total expend_inventory is            :",total_expense)    
 print("balance                              :",balance )    
