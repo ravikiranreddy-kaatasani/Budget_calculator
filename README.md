@@ -1,6 +1,9 @@
 # Budget_calculator
 
 ## About 
+- Tracking your spending in different categories can help you get a better sense of which areas are consuming significant chunks of your income.
+- You’re now in a position to confidently calculate how much you typically spend each month on various expenses, from mortgage, rent and car payments to utility bills, insurance, prescriptions,  groceries, dining out and student and other loans.
+- Using a budget calculator can help you quickly add up your income and expenses. 
 
 
 ## Sample Input
