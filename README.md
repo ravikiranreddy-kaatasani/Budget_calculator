@@ -6,6 +6,9 @@
 - Using a budget calculator can help you quickly add up your income and expenses. 
 
 
+##Constraints
+0<= salary <= 1000000
+
 ## Sample Input
 ```
 expense calculator:                                                       
