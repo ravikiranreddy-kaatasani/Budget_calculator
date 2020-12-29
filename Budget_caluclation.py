@@ -22,6 +22,9 @@ while(True):
         if expenditure_name == 'q': #exit the loop when q is entered
             break
         expenditure_amount=float(input("Enter the amount for "+ expenditure_name +" :")) 
+        if expenditure_amount<0:
+            print("expenditure_amount allows positive numbers")
+            continue
     
     except ValueError: 
     
