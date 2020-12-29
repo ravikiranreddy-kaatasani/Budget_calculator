@@ -2,6 +2,9 @@ print("expense calculator: ")
 while(True): #When ever the user enter the wrong input (anything except numbers).it will repeat the loop .
     try:
         salary=float(input("enter your salary: "))
+        if salary < 0:
+             print("Enter only positive numbers")
+             continue
         break
     except ValueError: #throw exception if salary input is not number.
         print("The salary should be a number")
@@ -13,6 +16,9 @@ while(True):
     try:                
         expenditure_name=input("Enter yor expense name : ") 
         expenditure_name = expenditure_name.strip().lower() #remove spaces and change it to lower to ensure expenditure_names are unique
+        if expenditure_name.isdigit():
+            print("expenditure name allows only strings")
+            continue
         if expenditure_name == 'q': #exit the loop when q is entered
             break
         expenditure_amount=float(input("Enter the amount for "+ expenditure_name +" :")) 
